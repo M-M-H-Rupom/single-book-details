@@ -60,9 +60,9 @@ td{
     padding: 8px;
     text-align: left;   
 }
-tr td:first-child {
+tr td.data_first_cell{
     font-weight: 700;
-    width: 30%;
+    width: 40%;
     background-color: #D9D9D9;
 }
 /* ------ */
@@ -105,7 +105,7 @@ tr td:first-child {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    tr td:first-child {
+    tr td.data_first_cell{
         font-weight: 700;
         width: 30%;
         font-size: 18px;
